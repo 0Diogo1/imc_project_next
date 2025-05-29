@@ -1,13 +1,13 @@
 // src/app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Providers } from "./providers";
+import { Providers } from "../providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IMC Database",
-  description: "Sistema de gerenciamento de índice de massa cosporal de alunos do ensino infantil",
+  title: "Seu App",
+  description: "Descrição do seu app",
 };
 
 export default function RootLayout({
