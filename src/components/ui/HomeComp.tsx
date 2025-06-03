@@ -1,12 +1,16 @@
 'use client'
 import React from 'react'
-import { Box, Button, Typography } from "@mui/material";
 import Link from "next/link";
+import { Button } from './button';
 
 const HomeComponent = () => {
     return (
         <>
-            <Box sx={{
+            <h1 className="text-3xl font-bold underline">
+                Hello world!
+            </h1>
+            <Button/>
+            {/* <Box sx={{
                 backgroundImage: 'url(/wave.svg)',
                 backgroundSize: "cover",
                 backgroundPosition: "start",
@@ -54,7 +58,7 @@ const HomeComponent = () => {
                         Entrar
                     </Button>
                 </Link>
-            </Box>
+            </Box> */}
         </>
     )
 }
